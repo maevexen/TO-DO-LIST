@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Poppins', sans-serif;
+}
+
+.well {
+    background-color: #1a1a1a; /* Darker background for the well */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h3.text-primary {
+    color: orangered; /* Orange color for the title */
+    font-size: 36px;
+}
+
+.table {
+    background-color: #1a1a1a; /* Dark background for the table */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333; /* Dark border */
+}
+
+
+.table th {
+    background-color: orangered; /* Orange background for headers */
+}
+
+.form-control {
+    margin-top: 20px;
+    width: 50%; /* Make the input field take full width of the container */
+    padding: 15px; /* Increased padding for a bigger input field */
+    font-size: 18px; /* Increased font size for better visibility */
+    margin-right: 10px; /* Space between input and button */
+    background-color: #555; /* Darker background for input */
+    color: white; /* White text color for input */
+    font-weight: bold;
+    border: 1px solid #777; /* Border color for input */
+}
+
+.form-control:focus {
+    background-color: orangered /* Darker background on focus */
+    border-color: orangered; /* Orangered border on focus */
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px 15px; /* Decreased padding for a smaller button */
+    font-size: 16px; /* Decreased font size for better proportion */
+    width: auto; /* Set to auto or a specific width if needed */
+}
+
+.btn-primary {
+    color: black; /* Text color */
+    font-weight: bolder;
+    border: none; /* No border */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 4rem; /* Adjusted border-radius for a smaller corner */
+    background: linear-gradient(270deg, #DF8908 10%, #ff1d15 100%);
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: none;
+    text-wrap: nowrap;
+    margin-top: 1rem; 
+}
+
+.btn-primary:active {
+    box-shadow: 0 0 20px rgba(255, 115, 0, 0.8), 0 0 30px rgba(255, 77, 0, 0.5); /* External orange shadow effect on click */
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background-color: transparent; /* Remove background color */
+    border: none; /* No border */
+    color: orangered; /* Green text color */
+    padding: 10px 15px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: opacity 0.3s ease; /* Smooth transition for hover */
+}
+
+.btn-danger {
+    background-color: transparent; /* Remove background color */
+    border: none; /* No border */
+    color: #f44336; /* Red text color */
+    padding: 10px 15px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: opacity 0.3s ease; /* Smooth transition for hover */
+}
+
+.btn-success:hover, .btn-danger:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+}
+
+.glyphicon {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.glyphicon-check:before {
+    content: "\e067";
+}
+
+.glyphicon-remove:before {
+    content: "\e014";
+}
+
+
